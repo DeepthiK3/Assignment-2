@@ -1,0 +1,30 @@
+<html>
+   <head>
+      
+      <script type="text/javascript">
+         function firstFunction(first, last)
+         {
+            var Name;
+            Name = first +" "+ last;
+            return Name;
+         }
+         
+         function secondFunction()
+         {
+            var result;
+            result = firstFunction('James', 'Bond');
+            document.write (result );
+         }
+      </script>
+      
+   </head>
+   
+   <body>
+      <p>Click the following button to call the function</p>
+      
+      <form>
+         <input type="button" onclick="secondFunction()" value="Call Function">
+      </form>
+      
+  </body>
+</html>

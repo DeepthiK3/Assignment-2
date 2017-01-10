@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>The pop method removes the last element from an array.</p>
+
+<button onclick="removeFunction()">Remove</button>
+
+<p id="demo"></p>
+
+<script>
+var skills = ["HTML", " JavaScript", " PHP", " Laravel", " Zend Framework" ];
+document.getElementById("demo").innerHTML = skills;
+
+function removeFunction() {
+    skills.pop();
+    document.getElementById("demo").innerHTML = skills;
+}
+</script>
+
+</body>
+</html>

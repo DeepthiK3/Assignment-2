@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>The push method adds a new element to an array.</p>
+
+<button onclick="addFunction()">ADD</button>
+
+<p id="demo"></p>
+
+<script>
+var courses = ["LAMP", " Testing", " Networking", " Analyst"];
+document.getElementById("demo").innerHTML = courses;
+
+function addFunction() {
+    courses.push(" Devops");
+    document.getElementById("demo").innerHTML = courses;
+}
+</script>
+
+</body>
+</html>
